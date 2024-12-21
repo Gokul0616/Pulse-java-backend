@@ -1,0 +1,55 @@
+// tweak
+{
+    "userId": "user123",
+    "description": "This is a test tweak description.",
+    "type": "image",
+    "url": "https://example.com/image.jpg",
+    "likesCount": 150,
+    "commentsCount": 30,
+    "createdAt": "2024-12-13T14:30:00"
+  }
+  
+  //post
+
+  {
+    "userId": "user123",
+    "description": "This is a sample post.",
+    "type": "image",
+    "url": "https://example.com/sample-post-image.jpg",
+    "tags": ["image", "quotes", "motivation"],
+    "likesCount": 150,
+    "commentsCount": 30,
+    "createdAt": "2024-12-13T10:15:30"
+  }
+  
+
+  //user
+
+  {
+    "email": "user@example.com",
+    "name": "John Doe",
+    "password": "securepassword123",
+    "profileUrl": "https://example.com/profile-image.jpg",
+    "username": "john_doe"
+  }
+  
+  //comment
+
+  {
+    "postId": "12345",
+    "userId": "user123",
+    "commentText": "This is a great post! Thanks for sharing.",
+    "likesCount": 10,
+    "repliesCount": 2
+  }
+  
+
+  //message
+  {
+  "senderId": "user101",
+  "recipientId": "user102",
+  "content": "Hey, how's it going?",
+  "sentAt": "2024-12-20T14:30:00",
+  "isRead": false,
+  "messageType": "text"
+}

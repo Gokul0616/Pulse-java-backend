@@ -1,0 +1,54 @@
+users
+    -userid
+    -username
+    -password
+    -email
+    -name
+    -profileUrl
+    -likesCount
+    -followersCount
+    -followingCount
+    -createdAt
+
+
+posts
+    -postid
+    -userid
+    -description
+    -type(image or video)
+    -url
+    -likesCount
+    -commentsCount
+    -createdAt
+
+comments
+    -commentid
+    -postid
+    -userid
+    -comment
+    -createdAt
+    -commentsLikes
+
+likes
+    -likeid
+    -postid
+    -userid
+    -createdAt
+
+# follows
+#     -followid
+#     -followerid
+#     -followingid
+#     -createdAt
+
+messages
+    -messageid
+    -senderid
+    -receiverid
+    -message
+    -createdAt
+
+
+    post - 
+
+    
